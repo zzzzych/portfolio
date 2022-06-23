@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkzzzzych=self.webpackChunkzzzzych||[]).push([[530],{8530:function(e,c,s){s.r(c);var n=s(184);c.default=function(){return(0,n.jsx)("div",{className:"ebook",children:(0,n.jsx)("h3",{className:"title",children:"\uc544\uc9c1 \uc0dd\uc131\ub41c \uc2dc\ub9ac\uc988\uac00 \uc5c6\uc2b5\ub2c8\ub2e4."})})}}}]);
+//# sourceMappingURL=530.85c28697.chunk.js.map
