@@ -1,0 +1,76 @@
+/* about */
+.about .faq {
+  padding-bottom: 2em;
+}
+.about .faq .faq-lists {
+  margin: 1em 0;
+  max-width: 80%;
+}
+.about .faq .faq-item .question {
+  box-sizing: border-box;
+  padding: 1rem;
+  background: var(--main-bg-two);
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+.about .faq .faq-item .answer-wrap {
+  height: 0;
+  overflow: hidden;
+}
+.about .faq .faq-item .question strong {
+  color: var(--point-color);
+  padding-right: 0.5em;
+}
+.about .faq .faq-item .answer-wrap {
+  overflow: hidden;
+  height: 0;
+  background: var(--main-bg-three);
+  transition: all ease-in-out 0.4s;
+}
+.about .faq .faq-item .answer-wrap > * {
+  padding: 1rem;
+}
+.about .faq .faq-item .answer-wrap h5 {
+  font-size: 1rem;
+  padding-bottom: 0;
+}
+.about .faq .faq-item .answer-wrap h5 strong {
+  color: var(--point-color-two);
+  padding-right: 0.5em;
+}
+.about .keyword > * {
+  padding-top: 1em;
+}
+.about .keyword div .title {
+  padding-bottom: 1em;
+}
+.about .keyword div .title svg {
+  width: 1.25rem;
+}
+.about .keyword div .title .sub-title {
+  margin-left: 0.5em;
+}
+.about .keyword .list .list-item {
+  display: inline-block;
+  margin: 0 0.5em 0.5em 0;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 1em;
+  padding: 0.25em 0.625em;
+  text-align: center;
+}
+.about .keyword .list .list-item .d-flex {
+  align-items: center;
+  vertical-align: middle;
+}
+.about .keyword .list .list-item .txt {
+  font-weight: 700;
+  margin-left: 0.5em;
+}
+
+@media all and (max-width: 767px) {
+  .about .faq .faq-lists {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
